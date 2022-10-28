@@ -1,0 +1,46 @@
+Forma larga para encender un led y parapade por tiempo
+//DEFINIR LOS PINES.
+int ledRojo=5;
+int ledAmarrillo=6;
+int ledVerde=7;
+
+void setup() {
+  // put your setup code here, to run once:
+     pinMode (ledRojo, OUTPUT);
+     pinMode (ledAmarrillo, OUTPUT);
+     pinMode (ledVerde, OUTPUT);
+}
+
+void loop() {
+   digitalWrite(ledRojo, HIGH);
+   delay(4000);
+   digitalWrite(ledRojo, HIGH); // enciende el LED.
+   delay(500); // retardo en milisegundos
+   digitalWrite(ledRojo, LOW); // apaga el LED.
+   delay(500); 
+   digitalWrite(ledRojo, HIGH); // enciende el LED.
+   delay(500); // retardo en milisegundos
+   digitalWrite(ledRojo, LOW); // apaga el LED.
+   delay(500); 
+   digitalWrite(ledRojo, HIGH); // enciende el LED.
+   delay(500); // retardo en milisegundos
+   digitalWrite(ledRojo, LOW); // apaga el LED.
+   delay(500); 
+   digitalWrite(ledRojo, HIGH); // enciende el LED.
+   delay(500); // retardo en milisegundos
+   digitalWrite(ledRojo, LOW); // apaga el LED.
+   delay(500); 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
